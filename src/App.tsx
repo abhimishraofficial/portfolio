@@ -9,11 +9,11 @@ import fake_invoice from './images/fake_invoice.jpeg';
 import song from './images/song2.jpeg';
 import food from './images/fem.png';
 
-import resume from './images/ayushi-resume.pdf';
-import certificate1 from './images/infosys.pdf';
-import certificate2 from './images/google.pdf';
-import certificate3 from './images/coursera.pdf';
-import certificate4 from './images/ey.pdf';
+import resume from './images/abhishek-resume.pdf';
+import certificate1 from './images/COP.pdf';
+import certificate2 from './images/COC.pdf';
+import certificate3 from './images/COE.pdf.pdf';
+import certificate4 from './images/APNA COLLEGE.pdf';
 import Contact from './Contact'; // NEW import
 
 function App() {
@@ -50,7 +50,7 @@ function App() {
   <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-2 md:py-3">
     {/* Logo */}
     <h1 className="text-2xl md:text-3xl font-extrabold tracking-widest bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent hover:scale-105 transition-all duration-700">
-      AG.
+      AK.
     </h1>
 
     <div className="flex items-center space-x-4">
@@ -84,7 +84,7 @@ function App() {
         { href: '#home', label: 'Home' },
         { href: '#about', label: 'About' },
         { href: '#skills', label: 'Skills' },
-        { href: '#projects', label: 'Projects' },
+        { href: '#project', label: 'Projects' },
         { href: '#experience', label: 'Experience' },
         { href: '#contact', label: 'Contact' },
         { href: '#home', label: 'Download Resume' }
@@ -122,14 +122,14 @@ function App() {
         <img
           src={ayushiImage}
           className="w-full h-full object-cover object-top"
-          alt="Ayushi Gautam"
+          alt="Abhishek kumar"
         />
       </div>
 
       <h1 className="font-poppins text-blue-300 text-sm mb-2 tracking-wider uppercase">Hello I'm</h1>
 
       <h1 className="text-4xl md:text-7xl font-extrabold mb-4 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-        Ayushi Gautam
+        Abhishek kumar
       </h1>
 
       <p className="text-lg md:text-xl text-blue-100/90 mb-6">
@@ -171,13 +171,13 @@ function App() {
 
       {/* Socials */}
       <div className="flex justify-center gap-6 text-blue-300 text-xl mt-6">
-        <a href="https://github.com/ayusheez" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:scale-110 transition">
+        <a href="https://github.com/abhimishraofficial" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:scale-110 transition">
           <FaGithub />
         </a>
-        <a href="https://linkedin.com/in/ayushigautam91" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:scale-110 transition">
+        <a href="https://www.linkedin.com/in/abhishek-kumar-30483023a/" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:scale-110 transition">
           <FaLinkedin />
         </a>
-        <a href="mailto:gautamayushi91@gmail.com" className="hover:text-white hover:scale-110 transition">
+        <a href="mailto:abhishekmishra28082@gmail.com" className="hover:text-white hover:scale-110 transition">
           <FaEnvelope />
         </a>
       </div>
@@ -234,7 +234,7 @@ function App() {
   <img
     src={ayushiImage}
     className="w-full h-full object-cover object-top"
-    alt="Ayushi Gautam"
+    alt="Abhishek Kumar"
   />
 </motion.div>
 
@@ -247,7 +247,7 @@ function App() {
         viewport={{ once: true }}
       >
         <p className="text-lg md:text-xl text-blue-100 leading-relaxed mb-8">
-  Hey, I'm <span className="text-blue-400 font-semibold">Ayushi Gautam</span> — a Full Stack Developer and AI Enthusiast with a love for crafting powerful, user-friendly web applications that actually make a difference. Whether it’s frontend finesse or backend logic, I thrive on turning complex ideas into clean, functional digital solutions.
+  Hey, I'm <span className="text-blue-400 font-semibold">Abhishek Kumar</span> — a Full Stack Developer and AI Enthusiast with a love for crafting powerful, user-friendly web applications that actually make a difference. Whether it’s frontend finesse or backend logic, I thrive on turning complex ideas into clean, functional digital solutions.
 </p>
 
 <p className="text-lg md:text-xl text-blue-100 leading-relaxed mb-8">
@@ -517,16 +517,10 @@ function App() {
     >
       {[
         {
-          role: 'Java Developer Intern',
-          company: 'Infosys Springboard',
-          period: '2024 - Present',
-          description: 'Building a Multicloud storage application with unified Interface .',
-        },
-        {
-          role: 'MERN Stack Developer',
-          company: 'EYGDS',
-          period: '2024 - 2025',
-          description: 'Developed responsive web applications using React and modern typescript.',
+          role: 'Web Developer Intern',
+          company: 'prodigy InfoTech',
+          period: 'Sep2024 - Oct2024',
+          description: 'Web Development Intern responsible for building, testing, and maintaining responsive websites and web applications using modern technologies .',
         },
         
       ].map((exp, index) => (
@@ -574,28 +568,28 @@ function App() {
       {[
   {
     title: 'Java Programming',
-    provider: 'Infosys Springboard',
+    provider: 'Ikigai School Of AI',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
     gradient: 'from-orange-500 to-red-500',
     link: certificate1,
   },
   {
-    title: 'Gen AI Study Jam',
-    provider: 'Google Developer Group',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg',
+    title: 'WEB DEVELOPER INTERN',
+    provider: 'Prodigy InfoTech',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
     gradient: 'from-blue-400 to-cyan-500',
     link: certificate2,
   },
   {
-    title: 'Building Website with WordPress',
-    provider: 'Coursera',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg',
+    title: 'certificate of excellence',
+    provider: 'IKIGAI SCHOOL OF AI',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg',
     gradient: 'from-blue-600 to-indigo-500',
     link: certificate3,
   },
   {
-    title: 'MERN Development',
-    provider: 'EYDGS',
+    title: 'full stack web development',
+    provider: 'APNA COLLEGE',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
     gradient: 'from-green-400 to-blue-500',
     link: certificate4,
@@ -706,21 +700,21 @@ function App() {
       {[
         {
           degree: 'Bachelor of Computer Engineering',
-          institution: 'Trinity College of Engineering and Research',
-          period: '2022 - 2026',
-          score: 'CGPA: 8.71',
+          institution: 'Babu Banrasi Das University',
+          period: '2021 - 2025',
+          score: 'CGPA: 8.96',
         },
         {
           degree: 'Higher Secondary Certificate (HSC)',
-          institution: 'Trinity Junior College',
-          period: '2020 - 2022',
-          score: 'Percentage: 73.50%',
+          institution: 'Gurukul Vidhyapeeth',
+          period: '2019 - 2021',
+          score: 'Percentage: 72.20%',
         },
         {
           degree: 'Secondary School Certificate (SSC)',
-          institution: 'Lady Faizunissa Khan English Medium School',
-          period: '2019 - 2020',
-          score: 'Percentage: 81.80%',
+          institution: 'St johns Academy',
+          period: '2018 - 2019',
+          score: 'Percentage: 84.20%',
         },
       ].map((edu, index) => (
         <motion.div
@@ -762,7 +756,7 @@ function App() {
 
       {/* Footer */}
       <footer className="py-6 border-t border-blue-900/30 bg-black text-center">
-        <p className="text-gray-400 text-sm">© 2025 Ayushi Gautam. All rights reserved.</p>
+        <p className="text-gray-400 text-sm">© 2025 Abhishek Kumar. All rights reserved.</p>
       </footer>
     </div>
   );

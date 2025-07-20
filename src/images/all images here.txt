@@ -1,0 +1,6 @@
+<iframe
+  src="/src/images/abhishek-resume.pdf"
+  width="100%"
+  height="1000px"
+  title="Resume PDF"
+/>

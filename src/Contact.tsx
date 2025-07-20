@@ -65,17 +65,17 @@ const Contact = () => {
               I'm always open to new collaborations! Drop a message anytime.
             </p>
             <div className="space-y-4">
-              <a href="mailto:gautamayushi91@gmail.com" className="flex items-center space-x-3 text-blue-400">
+              <a href="mailto:abhishekmishra28082@gmail.com" className="flex items-center space-x-3 text-blue-400">
                 <Mail size={18} />
-                <span>gautamayushi91@gmail.com</span>
+                <span>abhishekmishra28082@gmail.com</span>
               </a>
-              <a href="https://linkedin.com/in/ayushigautam91" target="_blank" className="flex items-center space-x-3 text-blue-400">
+              <a href="https://linkedin.com/in/abhishek-kumar-30483023a/" target="_blank" className="flex items-center space-x-3 text-blue-400">
                 <Linkedin size={18} />
-                <span>linkedin.com/in/ayushigautam</span>
+                <span>linkedin.com/in/abhishek kumar</span>
               </a>
-              <a href="https://github.com/ayusheez" target="_blank" className="flex items-center space-x-3 text-blue-400">
+              <a href="https://github.com/abhimishraofficial" target="_blank" className="flex items-center space-x-3 text-blue-400">
                 <Github size={18} />
-                <span>github.com/ayushigautam</span>
+                <span>github.com/abhimishraofficial</span>
               </a>
             </div>
           </motion.div>
