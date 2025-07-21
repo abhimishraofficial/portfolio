@@ -13,7 +13,6 @@ import resume from './images/abhishek-resume.pdf';
 import certificate1 from './images/COP.pdf';
 import certificate2 from './images/COC.pdf';
 import certificate3 from './images/COE.pdf.pdf';
-import certificate4 from './images/APNA COLLEGE.pdf';
 import Contact from './Contact'; // NEW import
 
 function App() {
@@ -586,13 +585,6 @@ function App() {
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg',
     gradient: 'from-blue-600 to-indigo-500',
     link: certificate3,
-  },
-  {
-    title: 'full stack web development',
-    provider: 'APNA COLLEGE',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
-    gradient: 'from-green-400 to-blue-500',
-    link: certificate4,
   },
 ]
 .map((cert, index) => (
