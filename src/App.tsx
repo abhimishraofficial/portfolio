@@ -691,7 +691,7 @@ function App() {
     <div className="relative border-l-2 border-blue-500/30 pl-6 space-y-12">
       {[
         {
-          degree: 'Bachelor of Computer Engineering',
+          degree: 'Bachelor of Technology in Computer Science ',
           institution: 'Babu Banrasi Das University',
           period: '2021 - 2025',
           score: 'CGPA: 8.96',
