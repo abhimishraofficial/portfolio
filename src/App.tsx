@@ -426,6 +426,12 @@ function App() {
     link: 'https://bytes-t5wd.vercel.app/',
   },
   {
+    title: 'chattr',
+    description: 'An anonymous chat application enabling private, temporary conversations between users with real-time communication powered by WebSockets.',
+    image: chattr,
+    link: 'https://chattr-nu.vercel.app/',
+  },
+  {
     title: 'New Project coming soon',
     description: 'Exciting project which is AI based coming soon',
     image: coming_soon,
