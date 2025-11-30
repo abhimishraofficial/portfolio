@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from 'react';
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import ayushiImage from './images/ayy.png';
 import Bytes from './images/Bytes.jpeg';
+import chattr from './images/chattr.jpeg';
+
 import coming_soon from './images/coming_soon.jpeg';
 import fake_invoice from './images/fake_invoice.jpeg';
 import food from './images/fem.png';
