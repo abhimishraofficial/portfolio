@@ -1,19 +1,20 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Menu, X, Github, Linkedin, Mail, ExternalLink, Code, Briefcase, User, Cpu, Send, FileText, GraduationCap } from 'lucide-react';
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { Briefcase, Code, Cpu, ExternalLink, GraduationCap, Menu, User, X } from 'lucide-react';
+import { useEffect, useRef, useState } from 'react';
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import ayushiImage from './images/ayy.png';
-import Multicloud from './images/Multicloud.jpeg';
+import Bytes from './images/Bytes.jpeg';
 import coming_soon from './images/coming_soon.jpeg';
 import fake_invoice from './images/fake_invoice.jpeg';
-import song from './images/song2.jpeg';
 import food from './images/fem.png';
+import Multicloud from './images/Multicloud.jpeg';
+import song from './images/song2.jpeg';
 
+import Contact from './Contact'; // NEW import
 import resume from './images/Abhishekresume.pdf';
-import certificate1 from './images/COP.pdf';
 import certificate2 from './images/COC.pdf';
 import certificate3 from './images/COE.pdf.pdf';
-import Contact from './Contact'; // NEW import
+import certificate1 from './images/COP.pdf';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -417,6 +418,12 @@ function App() {
     description: ' Fraud Invoice Detection - A tool to detect fraud invoices.',
     image: fake_invoice,
     link: 'https://invoice-detectt.netlify.app/',
+  },
+  {
+    title: 'Bytes',
+    description: 'Full-stack blogging web app with authentication and responsive UI, where users can read and publish blogs; built with modern tech stack and still in progress.',
+    image: Bytes,
+    link: 'https://bytes-t5wd.vercel.app/',
   },
   {
     title: 'New Project coming soon',
