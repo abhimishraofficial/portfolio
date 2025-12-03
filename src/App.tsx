@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Briefcase, Code, Cpu, ExternalLink, GraduationCap, Menu, User, X } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
-import ayushiImage from './images/ayy.png';
+import abhishekImage from './images/ayy.png';
 import Bytes from './images/Bytes.jpeg';
 import chattr from './images/chattr.jpeg';
 
@@ -122,7 +122,7 @@ function App() {
       {/* Profile Image */}
       <div className="w-36 h-36 md:w-44 md:h-44 mx-auto mb-6 rounded-full border-4 border-blue shadow-[0_0_20px_4px_rgba(255,255,255,0.6)] hover:shadow-[0_0_25px_8px_rgba(255,255,255,0.9)] transition-shadow duration-500 ease-in-out hover:scale-105 overflow-hidden">
         <img
-          src={ayushiImage}
+          src={abhishekImage}
           className="w-full h-full object-cover object-top"
           alt="Abhishek kumar"
         />
