@@ -234,7 +234,7 @@ function App() {
   viewport={{ once: true }}
 >
   <img
-    src={ayushiImage}
+    src={abhishekImage}
     className="w-full h-full object-cover object-top"
     alt="Abhishek Kumar"
   />
